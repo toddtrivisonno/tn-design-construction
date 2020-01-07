@@ -9,13 +9,13 @@ class Navbar extends React.Component {
             <nav className="navbar navbar-expand-md pt-1 pb-1">
                <div className="container">
                   <a href="#">
-                     <img src="TNLogo.png" className="card-img-top w-25 p-3" alt="TN Design and Construction Logo" />
+                     <img src="TNLogo.png" className="card-img-top w-25" alt="TN Design and Construction Logo" />
                   </a>
                </div>
                {/* Toggler/collapsibe Button */}
-               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+               {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                   <span className="navbar-toggler-icon"></span>
-               </button>
+               </button> */}
 
                <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                   <a href="#services" className="btn text-nowrap text-muted pr-1" alt="Services" title="Services">

@@ -24,8 +24,9 @@ class Jumbotron extends React.Component {
          >
             <div className="hero-text">
                <h1 className="display-4">
-               Designing and Building your Dream Space
+                  <strong>Building Your Dream Space</strong>
                </h1>
+               <p><strong>FROM CONCEPT TO COMPLETION</strong></p>
             </div>
          </div>
       )
