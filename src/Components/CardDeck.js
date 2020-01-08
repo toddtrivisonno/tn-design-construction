@@ -8,7 +8,7 @@ class CardDeck extends React.Component {
          <div className="pt-4">
             <div className="card-deck">
                <div className="card border-0" id="card1">
-                  <img src="IMG_7458.JPG" className="card-img-top" alt="Custom staircase" />
+                  <img src="IMG_6885.JPG" className="card-img-top" alt="Custom staircase" />
                   <div className="card-body">
                      <h5 className="card-title">Indoor</h5>
                      <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -24,7 +24,7 @@ class CardDeck extends React.Component {
                   </div>
                </div>
                <div className="card border-0">
-                  <img src="IMG_2791.JPG" className="card-img-top" alt="Outdoor living room amongst the trees" />
+                  <img src="IMG_6743.JPG" className="card-img-top" alt="Outdoor living room amongst the trees" />
                   <div className="card-body">
                      <h5 className="card-title">Blended</h5>
                      <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
