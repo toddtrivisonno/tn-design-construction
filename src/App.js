@@ -29,7 +29,7 @@ class App extends React.Component {
           </h1>
           <hr />
           <CardDeck />
-          <hr />
+          <hr id="contact" />
           <h1 className="text-center text-muted p-3">
             Let's Work Together
           </h1>
