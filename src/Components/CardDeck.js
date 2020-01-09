@@ -19,7 +19,7 @@ class CardDeck extends React.Component {
                   </div>
                </div>
                <div className="card border-0">
-                  <img src="IMG_2782.JPG" className="card-img-top" alt="Custom landscaping with putting green" />
+                  <img src="IMG_2782.jpg" className="card-img-top" alt="Custom landscaping with putting green" />
                   <div className="card-body">
                      <h5 className="card-title">Outdoor</h5>
                      <p className="card-text">Velit in cupidatat consectetur labore voluptate in duis nostrud Lorem fugiat commodo dolor. Aute minim et irure ipsum.</p>
