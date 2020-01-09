@@ -10,12 +10,12 @@ class ContactCards extends React.Component {
                <div className="card-body" id="contactCard">
                   <h4>TN Design & Construction</h4>
                   <p className="lead text-muted"><FontAwesomeIcon icon="map-marker-alt" /> 11550 Independent Hill Road<br />Arrington TN 37014</p>
-                  {/* <img src="letterT.png" width="100px" className="m-4" /> */}
-                  <p className="lead text-muted"><FontAwesomeIcon icon="phone" /> 615-487-6869</p>
+                  <p className="text-muted"><FontAwesomeIcon icon="phone" />
+                  <a href="tel:+1-615-487-6869" className="lead text-muted"> 615-487-6869</a>
+                  </p>
                   <p className="lead text-muted"><FontAwesomeIcon icon="envelope" />
                      <a href="mailto:mwnealtenn@gmail.com" target="_top" className="text-muted"> Send us an email</a>
                   </p>
-                  {/* <p className="lead"><FontAwesomeIcon icon="envelope" />  mwnealtenn@gmail.com</p> */}
                </div>
             </div>
             <div className="card">

@@ -8,8 +8,8 @@ class About extends React.Component {
             <div className="row no-gutters position-relative" id="about">
                <div className="col-md-6 mb-md-0 p-md-4">
                   <figure>
-                     <img src="matt_neal.jpg" className="w-100 rounded" alt="A picture of Matt's family" />
-                     <figcaption>Matt, with daughters Morgan and Mallory.</figcaption>
+                     <img src="matt_neal.jpg" className="w-100 rounded" alt="Matt's family" />
+                     <figcaption className="text-center">Matt, with daughters Morgan and Mallory.</figcaption>
                   </figure>
                </div>
                <div className="col-md-6 position-static p-4 pl-md-0">
