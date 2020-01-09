@@ -18,7 +18,7 @@ class Navbar extends React.Component {
                </button> */}
 
                <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                  <a href="#services" className="btn text-nowrap text-muted pr-1" alt="Services" title="Services">
+                  <a href="#what-we-do" className="btn text-nowrap text-muted pr-1" alt="What We Do" title="What We Do">
                      What We Do
                      </a>
                   <a href="#about" className="btn text-muted pr-1" alt="About" title="About">

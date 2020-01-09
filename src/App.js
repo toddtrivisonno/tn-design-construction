@@ -9,6 +9,7 @@ import Navbar from './Components/Navbar.js';
 import Jumbotron from './Components/Jumbotron.js';
 import CardDeck from './Components/CardDeck.js';
 import ContactCards from './Components/ContactCards.js';
+import About from './Components/About.js';
 
 library.add(fab, faPhone, faEnvelope, faMapMarkerAlt);
 
@@ -23,12 +24,18 @@ class App extends React.Component {
         {/* <Jumbotron jumboImg="IMG_6885.jpg" /> */}
         <Jumbotron jumboImg="IMG_2791.jpg" />
         <div className="container p-2">
-          <hr />
+          <hr id="what-we-do" />
           <h1 className="text-center text-muted p-3">
-            <strong>TN Design & Construction</strong>, conveniently located south of Nashville, creates tailored residential and commercial construction projects.
+            <strong>TN Design & Construction</strong>, conveniently located south of Nashville, creates tailored residential and commercial construction projects, from renovations to new buildings.
           </h1>
           <hr />
           <CardDeck />
+          <hr id="about" />
+          <h1 className="text-center text-muted p-3">
+            About Us
+          </h1>
+          <hr />
+          <About />
           <hr id="contact" />
           <h1 className="text-center text-muted p-3">
             Let's Work Together

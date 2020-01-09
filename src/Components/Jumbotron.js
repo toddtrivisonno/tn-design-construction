@@ -1,6 +1,5 @@
 import React from 'react';
 import './Jumbotron.css';
-import { faAutoprefixer } from '@fortawesome/free-brands-svg-icons';
 
 class Jumbotron extends React.Component {
 
