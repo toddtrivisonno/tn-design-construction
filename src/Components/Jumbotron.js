@@ -21,7 +21,7 @@ class Jumbotron extends React.Component {
             className="jumbotron jumbotron-fluid" 
             style={this.sectionStyle}
          >
-            <div className="hero-text">
+            <div className="hero-text p-3">
                <h1 className="display-4">
                   <strong>Building Your Dream Space</strong>
                </h1>

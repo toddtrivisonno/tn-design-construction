@@ -26,9 +26,9 @@ class App extends React.Component {
         <Jumbotron jumboImg="IMG_2791.jpg" />
         <div className="container p-2">
           <hr id="what-we-do" />
-          <h1 className="text-center text-muted p-3">
+          <h2 className="text-center text-muted p-3">
             <strong>TN Design & Construction</strong>, conveniently located south of Nashville, creates tailored residential and commercial construction projects, from renovations to new buildings.
-          </h1>
+          </h2>
           <hr />
           <CardDeck />
           <hr id="about" />

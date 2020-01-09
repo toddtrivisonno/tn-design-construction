@@ -7,9 +7,9 @@ class Navbar extends React.Component {
       return (
          <header>
             <nav className="navbar navbar-expand-md navbar-light pt-1 pb-1">
-               <a className="navbar-brand" href="#">
-                  <img src="TNLogo.png" className="w-25" alt="TN Design and Construction Logo" />
-               </a>
+                  <a className="navbar-brand" href="#">
+                     <img src="TNLogo_small25.png" alt="TN Design and Construction Logo" />
+                  </a>
 
                {/* Toggler/collapsibe Button */}
                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                <div className="collapse navbar-collapse" id="collapsibleNavbar">
                   <a
                      href="#what-we-do"
-                     className="btn text-nowrap text-muted pr-1 nav-link"
+                     className="btn text-nowrap text-muted pr-1 nav-link ml-auto"
                      alt="What We Do"
                      title="What We Do"
                   >
