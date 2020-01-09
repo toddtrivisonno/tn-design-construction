@@ -1,6 +1,5 @@
 import React from 'react';
 import './Jumbotron.css';
-import { faAutoprefixer } from '@fortawesome/free-brands-svg-icons';
 
 class Jumbotron extends React.Component {
 
@@ -22,10 +21,11 @@ class Jumbotron extends React.Component {
             className="jumbotron jumbotron-fluid" 
             style={this.sectionStyle}
          >
-            <div className="hero-text">
+            <div className="hero-text p-3">
                <h1 className="display-4">
-               Designing and Building your Dream Space
+                  <strong>Building Your Dream Space</strong>
                </h1>
+               <p><strong>FROM CONCEPT TO COMPLETION</strong></p>
             </div>
          </div>
       )
